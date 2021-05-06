@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigenere Decryption</title>
+    <style>
+        .home {position: absolute;
+                top: 10px;
+                right: 10px;
+                }
+    </style>
+</head>
+<body>
+    <h2>Vigenere Cipher Decryption</h2>
+
+<form action="vdecrypt.php" method="post">
+    <label for="text">Cipher Text:</label><br>
+    <textarea id="text" name="text" rows="4" cols="50" placeholder="Enter the text that needs to be decrypted!"></textarea><br>
+
+  <label for="key">Key:</label><br>
+  <input type="text" id="key" name="key"  placeholder="Enter the key!"><br><br>
+  <input type="submit" value="Decrypt" >
+</form> 
+
+</body>
+<button  class= "home" onclick="window.location.href='vigenere.html'">Back to Vigenere Home</button>
+</html>

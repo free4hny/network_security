@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2ba0af;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.container .btn2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-200%, -700%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2ba0af;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container .btn2:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body style="background-color:#00ff0d;">
+
+<h2>Select your Cipher</h2>
+<!-- <p>Add a button to an image:</p> -->
+
+<div class="container">
+  <img src="encryption.png" alt="Snow" style="width:100%">
+
+  <button class="btn" onclick="window.location.href='caeser.html'">Caeser Cipher</button>
+  
+
+</div>
+<div class="container">
+    <table>
+
+    <tr><button class="btn2" onclick="window.location.href='vigenere.html'">Vigenere Cipher</button></tr>
+</table>
+</div>
+
+
+</body>
+</html>
